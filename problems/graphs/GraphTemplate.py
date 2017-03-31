@@ -11,12 +11,15 @@ class Graph(object):
             If no dictionary or None is given, 
             an empty dictionary will be used
         """
+        #as adjacency list
 
     def vertices(self):
         """ returns the vertices of a graph """
 
+
     def edges(self):
         """ returns the edges of a graph """
+
 
     def add_vertex(self, vertex):
         """ If the vertex "vertex" is not in 
