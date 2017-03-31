@@ -29,6 +29,8 @@ def isMirror(root1 , root2):
             if  root1.key == root2.key:
                 return (isMirror(root1.left, root2.right)and
                 isMirror(root1.right, root2.left))
+            else:
+                return False
  
     # If neither of above conditions is true then root1
     # and root2 are not mirror images

@@ -5,8 +5,7 @@
 class Node:
  
     # Utility function to create new node
-    def __init__(self, key):
-        ? 
+       
 
 
 # Returns True if trees with roots as root1 and root 2 
@@ -14,8 +13,7 @@ class Node:
 def isMirror(root1 , root2):
     # If both trees are empty, then they are mirror images
     #base condition 1
-    if root1 is None and root2 is None:
-        ?
+    
 
     """ For two trees to be mirror images, the following three
         conditions must be true
@@ -25,12 +23,10 @@ def isMirror(root1 , root2):
         3 - right subtree of left tree and left subtree
            of right tree have to be mirror images
     """
-    if (root1 is not None and root2 is not None):
-        ?
- 
+    
     # If neither of above conditions is true then root1
     # and root2 are not mirror images
-    return ?
+    
  
 def isSymmetric(root):
     # Check if tree is mirror of itself
