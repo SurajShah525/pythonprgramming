@@ -32,6 +32,7 @@ from collections import OrderedDict
 #remove duplicates
 list1 = list(set(list1))
 
+li.sort()
 #Ordering a dict by key: or use OrderedDict directly
 import operator
 x = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
@@ -78,3 +79,9 @@ print(less_than_zero)
 from functools import reduce
 product = reduce((lambda x, y: x * y), [1, 2, 3, 4])
 
+##File handling
+f = open("abc.txt","r")
+f.close()
+
+with open("abc.txt","r") as f:
+    #foo baar

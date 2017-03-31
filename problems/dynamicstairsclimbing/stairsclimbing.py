@@ -1,5 +1,5 @@
 class Solution:
-    def climbStairs(elf,n):
+    def climbStairs(self,n):
         if n == 1:
             return 1
         dp = {}
