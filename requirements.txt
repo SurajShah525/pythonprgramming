@@ -1,0 +1,4 @@
+ipython
+psycopg2
+python-editor==0.4
+requests
